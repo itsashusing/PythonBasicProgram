@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------
+---->  Following these steps to post/push files into GitHub. <-----
+-------------------------------------------------------------------------
+Prerequisite: You must have a GitHub Account. if not just make a git hub account its free.
+okay not follow these simple stepts.
+
+------------------------------------------------------------------
+I use----> WindosOs and a "git_bash" software.
+-------------------------------------------------------------------
+
+Step:1
+------
+Open your git_bash Terminal and type (cd ~/) ----> its change your directory to home
+like ----> /c/Users/lenovo
+
+Step:2
+------
+type (mkdir .ssh) -----> its make a hidden shh key for your git-hub .
+
+Step:3
+------
+type (ssh-keygen.exe) and Just enter and enter . Its genrate you ssh key.
+
+Step:4
+------
+type (cat id_rsa.pub) -----> its shows your ssh keys just copy it.
+
+Step:5
+-----
+ Go to your Git-hub account and click on your porfile and then Setting and then click 
+ SSh and GPG keys and then click new ssh key and paste your ssh key what you copied in your git-bash terminal.
+
+Step:6
+-----
+Now under stand one think you just make a folder where you post your files in your computer it is a git-folder. Make it separate
+
+Step:7
+------
+Go to this folder what you create for you git-hub files now change your dir to this folder mean open your git-bash to in folder.
+
+Step:8
+------
+Now Your dir is your folder which you use to add/push your git files. Hit these commonds
+1--> git config --global user.name "Your Name"
+2--> git config --global user.email "Your Email"
+3--> git config --global push.default matching
+4--> git config --global alias.co checkout
+5--> git init
+6--> git add .
+7--> git commit -am 'initial commit'
+
+After these your folder like a git folder Now time to connect to Your repositorise Now go to your git-hub account
+
+Step:9
+------
+Create a repositories Just click New give a name to the repository and click Create repository
+After create repository you see a next page Just In second line May be its heading Like(...or push an existing repository form the command line)
+Here you just copy these line by line and paste you git-bash terminal
+
+The last line was like git push -u origin main when you hit enter and go to your git-hub account and refersh the page you see your files is push on your repository
+
+---------------------------------------------------------------------------
+NOTE:
+Now if you want to add another new file Just you need only these commonds.
+(Your file must be in your folder what you make for your git-hub files )
+
+1--> git add .
+2--> git commit -am 'initial commit'
+3--> git push -u origin main
+
+
+
+Thanks & Regards:
+Ashutosh Singh
+
