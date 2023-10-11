@@ -2,7 +2,7 @@
 ---->  Following these steps to post/push files into GitHub. <-----
 -------------------------------------------------------------------------
 Prerequisite: You must have a GitHub Account. if not just make a git hub account its free.
-okay not follow these simple stepts.
+okay now follow these simple stepts.
 
 ------------------------------------------------------------------
 I use----> WindosOs and a "git_bash" software.
